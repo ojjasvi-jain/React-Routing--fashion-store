@@ -1,0 +1,34 @@
+.pdetails-container {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  border: 1px solid #555;
+}
+
+.p-img {
+  width: 300px;
+  object-fit: contain;
+  margin: 30px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  padding: 40px;
+}
+
+.text {
+  font-size: large;
+}
+
+.btn {
+  width: 50%;
+  height: 50px;
+  margin: 0 auto;
+  color: white;
+  cursor: pointer;
+}
